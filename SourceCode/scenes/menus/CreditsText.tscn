@@ -211,88 +211,88 @@ You can also find us on IRC:
 
 [b][wave]- SuperTux Classic -[/wave][/b]
 "
-text = "[center][b][wave]- SuperTux Classic -[/wave][/b]
+text = "- SuperTux Classic -
 
 A remaster of SuperTux Milestone 1
 built from the ground up in the
 Godot Engine!
 
 
-[b][wave]Licensed Under[/wave][/b]
+Licensed Under
 
-[wave]The GNU GPL v3 or Later (GPL-3.0-or-later)[/wave]
-[i]This game is totally open source! You can modify
+The GNU GPL v3 or Later (GPL-3.0-or-later)
+This game is totally open source! You can modify
 and redistribute it for free without hassle, as long
-as you follow the conditions set in COPYING.TXT.[/i]
+as you follow the conditions set in COPYING.TXT.
 
 
-[b][wave]Remastered by[/wave][/b]
+Remastered by
 
 Alexander (Alzter) Small
 
 
-[b][wave]Remaster Programming[/wave][/b]
+Remaster Programming
 
 Alexander (Alzter) Small
 
 Matthew (Skyace65)
 
 
-[b][wave]New Graphics[/wave][/b]
+New Graphics
 
 Alexander (Alzter) Small
 
 Ingo (grumbel) Ruhnke
-[i](Taken from future versions of SuperTux)[/i]
+(Taken from future versions of SuperTux)
 
 
-[b][wave]Boss Battle Design[/wave][/b]
+Boss Battle Design
 
 Alexander (Alzter) Small
 
 Carsten (RustyBox) Wirtz
 
 
-[b][wave]New Sounds[/wave][/b]
+New Sounds
 
 Shrehpog - Wooden Crate smash
-[i]https://freesound.org/people/Srehpog/sounds/31624/[/i]
+https://freesound.org/people/Srehpog/sounds/31624/
 
 Qubodup - Fireball spell
-[i]https://freesound.org/people/qubodup/sounds/442827/[/i]
+https://freesound.org/people/qubodup/sounds/442827/
 
 Many other public domain sounds from Freesound.org
 
 
-[b][wave]Sound and Music Remastering[/wave][/b]
+Sound and Music Remastering
 
 Alexander (Alzter) Small
 
 
-[b][wave]New Music Tracks by:[/wave][/b]
+New Music Tracks by:
 
 Joseph (ZhayTee) Toscano
-[i](Taken from TuxRacer and Pingus' soundtracks)[/i]
+(Taken from TuxRacer and Pingus' soundtracks)
 
 Marek (Wansti) Moeckel
-[i](Taken from future versions of SuperTux)[/i]
+(Taken from future versions of SuperTux)
 
 Alexander (Alzter) Small
-[i]Adapted from Marek Moeckel's compositions[/i]
+Adapted from Marek Moeckel's compositions
 
 
-[b][wave]Voice Acting[/wave][/b]
+Voice Acting
 
 Matthias (MatzeB) Braun
 for the voice of Nolok
-[i](Adapted from the Yeti's voice in SuperTux Milestone 2)[/i]
+(Adapted from the Yeti's voice in SuperTux Milestone 2)
 
 
 
 
 
 
-[b][wave]- Original Credits -[/wave][/b]
+- Original Credits -
 
 for SuperTux Milestone 1 are as follows:
 
@@ -301,12 +301,12 @@ for SuperTux Milestone 1 are as follows:
 
 
 
-[b][wave]Originally developed by[/wave][/b]
+Originally developed by
 
 Bill Kendrick
 
 
-[b][wave]Programming[/wave][/b]
+Programming
 
 Tobias (tobgle) Glaesser
 
@@ -317,14 +317,14 @@ Ingo (grumbel) Ruhnke
 Matthias (MatzeB) Braun
 
 
-[b][wave]Contrib Programming[/wave][/b]
+Contrib Programming
 
 Ryan (sik0fewl) Flegel
  
 Duong-Khang (neoneurone) NGUYEN
 
 
-[b][wave]Graphics[/wave][/b]
+Graphics
 
 Ingo (grumbel) Ruhnke
  
@@ -337,19 +337,19 @@ Nikolaj (unDEFER) Krivchenkov
 Stephen Groundwater
 
 
-[b][wave]Level Design[/wave][/b]
+Level Design
 
 Marek (Wansti) Moeckel
  
 Ingo (grumbel) Ruhnke
 
 
-[b][wave]Story[/wave][/b]
+Story
 
 Christopher A. (paroneayea) Webber
 
 
-[b][wave]Music[/wave][/b]
+Music
 
 Marek (Wansti) Moeckel
 
@@ -358,45 +358,45 @@ Mystical
 Mortimer Twang
 
 
-[b][wave]Sounds[/wave][/b]
+Sounds
 
 Royalty free sound effects
 CDROMs and FTP sites
 
 
-[b][wave]Thanks to[/wave][/b]
+Thanks to
 
 Larry Ewing
-[i]Creator of Tux, the Linux penguin[/i]
+Creator of Tux, the Linux penguin
 
 SDL and OpenGL
-[i]For making such a great gaming experience[/i]
-[i]possible in Linux[/i]
+For making such a great gaming experience
+possible in Linux
 
 
-[b][wave]Contact[/wave][/b]
+Contact
 
 Visit our website at
-[i]https://www.supertux.org/[/i]
+https://www.supertux.org/
 
 Or talk to us directly on
 our Discord server!
-[i]https://discord.gg/AcvtHWz[/i]
+https://discord.gg/AcvtHWz
 
 We also have a forum for
 suggestions, comments and ideas:
-[i]http://forum.freegamedev.net/viewforum.php?f=66[/i]
+http://forum.freegamedev.net/viewforum.php?f=66
 
 You can also find us on IRC:
-[i]#supertux at https://libera.chat/[/i]
+#supertux at https://libera.chat/
 
 
 
 
 
-[wave]Thank you for playing!
+Thank you for playing!
 
-[b][wave]- SuperTux Classic -[/wave][/b]
+- SuperTux Classic -
 "
 fit_content_height = true
 scroll_active = false

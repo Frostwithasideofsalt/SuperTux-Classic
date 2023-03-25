@@ -57,27 +57,27 @@ scroll_active = false
 [node name="HBoxContainer" type="HBoxContainer" parent="Control/VBoxContainer"]
 margin_top = 34.0
 margin_right = 640.0
-margin_bottom = 55.0
+margin_bottom = 56.0
 alignment = 1
 
 [node name="Label2" type="Label" parent="Control/VBoxContainer/HBoxContainer"]
-margin_left = 265.0
-margin_right = 354.0
-margin_bottom = 21.0
+margin_left = 279.0
+margin_right = 345.0
+margin_bottom = 22.0
 text = "TUX x "
 align = 1
 
 [node name="LivesCount" type="Label" parent="Control/VBoxContainer/HBoxContainer"]
-margin_left = 358.0
-margin_right = 374.0
-margin_bottom = 21.0
+margin_left = 349.0
+margin_right = 361.0
+margin_bottom = 22.0
 text = "5"
 align = 1
 
 [node name="Author" type="Label" parent="Control/VBoxContainer"]
-margin_top = 59.0
+margin_top = 60.0
 margin_right = 640.0
-margin_bottom = 159.0
+margin_bottom = 160.0
 rect_min_size = Vector2( 0, 100 )
 custom_fonts/font = ExtResource( 3 )
 text = "by Marek Moeckel"

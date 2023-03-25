@@ -8,7 +8,6 @@
 [ext_resource path="res://scenes/backgrounds/assets/SnowfallParticlesLight.tscn" type="PackedScene" id=6]
 [ext_resource path="res://scenes/master/Ambience.tscn" type="PackedScene" id=7]
 
-
 [sub_resource type="ShaderMaterial" id=1]
 shader = ExtResource( 5 )
 shader_param/overlay_color = Plane( 0.3, 0.4, 0.6, 0.5 )
