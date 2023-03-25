@@ -27,7 +27,7 @@ export var attack_cooldown = 0.2
 export var facing = -1 setget set_facing
 export var boundary_tile_left = 1
 export var boundary_tile_right = 18
-export var width = 100 # How wide is nolok? (chungus momen)
+export var width = 69 # How wide is nolok? (chungus momen)
 export (PackedScene) var iceblock_scene
 export (PackedScene) var fireball_scene
 
