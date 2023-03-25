@@ -21,10 +21,10 @@ extends CanvasLayer
 
 # It also acts as the HUD to display the coins and lives counter in levels.
 
-export var initial_coins = 0
-export var initial_lives = 3
+export var initial_coins = 9999999
+export var initial_lives = 999999999999999999
 export var initial_state = 0
-export var game_over_lives = 10 # How many lives we grant the player after getting a game over.
+export var game_over_lives = 69 # How many lives we grant the player after getting a game over.
 
 onready var coins = initial_coins setget _set_coin_count
 onready var lives : int = initial_lives setget _set_lives_count
@@ -46,7 +46,7 @@ var level_timer_enabled = false
 var tick_time = 999
 var message_text = "" setget update_message_text
 
-var visible = true
+#var visible = true
 
 func _ready():
 	self.message_text = ""

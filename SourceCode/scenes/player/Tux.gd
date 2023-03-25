@@ -21,9 +21,9 @@
 extends KinematicBody2D
 
 export (PackedScene) var fireball_scene
-export var invincible_star_time = 10.0
-export var invincible_warning_time = 3.0 # Tux flashes green this many seconds before the invincible star wears out
-export var damage_safe_time = 1.0
+export var invincible_star_time = 50.0
+export var invincible_warning_time = 50.0 # Tux flashes green this many seconds before the invincible star wears out
+export var damage_safe_time = 8.0
 export var auto_run = true
 
 var grounded = false setget _set_grounded_state
@@ -35,18 +35,18 @@ var move_direction = 0
 var facing = 1
 var grabbed_object = null
 var fireball_speed = 16 * Global.TILE_SIZE
-var fireball_amount = 2 # Amount of fireballs which can be shot at once
+var fireball_amount = 420 # Amount of fireballs which can be shot at once
 
-var walk_accel = 0.03 * pow(60, 2) / 4 # SuperTux calculates acceleration by
-var run_accel = 0.04 * pow(60, 2) / 11 # multiplying it by delta squared
+var walk_accel = 0.06 * pow(60, 2) / 4 # SuperTux calculates acceleration by
+var run_accel = 0.9 * pow(60, 2) / 11 # multiplying it by delta squared
 
 var walk_min = 1.0 * 4.5 * Global.TILE_SIZE # Player speed gets set to this when beginning to move
 var walk_max = 2.3 * 4.5 * Global.TILE_SIZE # If X speed is over this, player is running
-var run_max = 3.2 * 4.5 * Global.TILE_SIZE
-var skid_min = 2.0 * 4 * Global.TILE_SIZE # Player can skid if travelling over this speed
+var run_max = 4.2 * 4.5 * Global.TILE_SIZE
+var skid_min = 5.0 * 4 * Global.TILE_SIZE # Player can skid if travelling over this speed
 
 # These values all get re-calculated in the initialize function using kinematic equations (thanks Game Endeavor)
-var jump_height = 5.0 * Global.TILE_SIZE # WAS 5.2 The peak height of holding jump in blocks
+var jump_height = 12.0 * Global.TILE_SIZE # WAS 5.2 The peak height of holding jump in blocks
 var run_jump_height = 6.0 * Global.TILE_SIZE # WAS 5.8 Same as above but while moving fast
 
 var bounce_height = 2.0 * Global.TILE_SIZE # Bounce height while not holding jump
@@ -168,13 +168,9 @@ func jump_input(running = abs(velocity.x) > walk_max):
 	if Input.is_action_just_pressed("jump"):
 		jump_buffer.start()
 	
-	var jump_velocity = run_jump_height if running else jump_height
 	
-	var can_jump = grounded or coyote_timer.time_left > 0
-	
-	if can_jump and jump_buffer.time_left > 0:
-		jump_buffer.stop()
-		velocity.y = jump_velocity
+	if Input.is_action_just_pressed("jump"):
+		velocity.y = -1024
 		sfx.play("Jump")
 		self.grounded = false
 	
@@ -402,7 +398,7 @@ func release_grabbed_object(body = grabbed_object):
 	grabbed_object = null
 
 func fireball_input():
-	if state == states.FIRE and Input.is_action_just_pressed("run"):
+	if Input.is_action_pressed("run"):
 		if Global.fireballs_on_screen < fireball_amount:
 			Global.fireballs_on_screen += 1
 			shoot_fireball()
