@@ -31,7 +31,7 @@ export var width = 128 # How wide is nolok? (chungus momen)
 export (PackedScene) var iceblock_scene
 export (PackedScene) var fireball_scene
 
-export var fireballs_per_hit = 10 # If Nolok gets hit by X fireballs, it counts as a hit
+export var fireballs_per_hit = 256# If Nolok gets hit by X fireballs, it counts as a hit
 var fireball_hits = 0 # How many fireball hits the player has racked up on Nolok
 
 onready var bound_left = boundary_tile_left * Global.TILE_SIZE + width * 0.5
