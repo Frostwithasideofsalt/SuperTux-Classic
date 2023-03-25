@@ -22,7 +22,7 @@ signal attack_finished
 # BOUNDARIES
 # Basically these act as invisible vertical walls at the edges of the level
 # which Nolok cannot pass, to prevent him from falling off the level like a doofus
-export var initial_health = 20
+export var initial_health = 24
 export var attack_cooldown = 0.2
 export var facing = -1 setget set_facing
 export var boundary_tile_left = 1
