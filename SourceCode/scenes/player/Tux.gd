@@ -171,7 +171,6 @@ func jump_input(running = abs(velocity.x) > walk_max):
 	
 	if Input.is_action_just_pressed("jump"):
 		velocity.y = -1024
-		sfx.play("Jump")
 		self.grounded = false
 	
 	# Jump termination by letting go of jump key
