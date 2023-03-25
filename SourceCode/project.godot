@@ -20,7 +20,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="SuperTux Classic"
+config/name="SuperTux Classic AWESOME EDITION"
 config/description="A ground-up remaster of SuperTux Milestone 1 in the Godot Engine!"
 run/main_scene="res://scenes/menus/TitleScreen.tscn"
 config/use_custom_user_dir=true

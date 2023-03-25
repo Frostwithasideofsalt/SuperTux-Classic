@@ -42,7 +42,7 @@ var run_accel = 0.9 * pow(60, 2) / 11 # multiplying it by delta squared
 
 var walk_min = 1.0 * 4.5 * Global.TILE_SIZE # Player speed gets set to this when beginning to move
 var walk_max = 2.3 * 4.5 * Global.TILE_SIZE # If X speed is over this, player is running
-var run_max = 4.2 * 4.5 * Global.TILE_SIZE
+var run_max = 3.2 * 4.5 * Global.TILE_SIZE
 var skid_min = 5.0 * 4 * Global.TILE_SIZE # Player can skid if travelling over this speed
 
 # These values all get re-calculated in the initialize function using kinematic equations (thanks Game Endeavor)

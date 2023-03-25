@@ -13,3 +13,10 @@ theme = ExtResource( 1 )
 music = "Credits"
 
 [node name="OilTuxBG" parent="." instance=ExtResource( 3 )]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 244.0
+margin_top = 199.0
+margin_right = 445.0
+margin_bottom = 239.0
+text = "fuck you"
