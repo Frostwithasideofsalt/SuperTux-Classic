@@ -28,8 +28,8 @@ export var sprite_faces_direction = true
 export var bounce_height_in_tiles = 6.0
 
 var velocity = Vector2()
-var move_speed = 0.8 * 4 * Global.TILE_SIZE
-var bounce_move_speed = 1.3 * 4 * Global.TILE_SIZE
+var move_speed = 5 * 4 * Global.TILE_SIZE
+var bounce_move_speed = 9.3 * 4 * Global.TILE_SIZE
 var kicked_speed = 3.5 * 5.5 * Global.TILE_SIZE
 var flying_distance = 3 * Global.TILE_SIZE
 var grounded = false

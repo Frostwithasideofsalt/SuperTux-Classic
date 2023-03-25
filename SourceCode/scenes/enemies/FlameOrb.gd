@@ -17,8 +17,8 @@
 
 extends Node2D
 
-export var distance_tiles = 3
-export var speed = 100
+export var distance_tiles = 1
+export var speed = 999
 export var starting_angle = 0
 
 onready var pos = position
