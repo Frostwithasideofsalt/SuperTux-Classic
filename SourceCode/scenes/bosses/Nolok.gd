@@ -22,16 +22,16 @@ signal attack_finished
 # BOUNDARIES
 # Basically these act as invisible vertical walls at the edges of the level
 # which Nolok cannot pass, to prevent him from falling off the level like a doofus
-export var initial_health = 5
-export var attack_cooldown = 0.75
+export var initial_health = 20
+export var attack_cooldown = 0.2
 export var facing = -1 setget set_facing
 export var boundary_tile_left = 1
 export var boundary_tile_right = 18
-export var width = 128 # How wide is nolok? (chungus momen)
+export var width = 100 # How wide is nolok? (chungus momen)
 export (PackedScene) var iceblock_scene
 export (PackedScene) var fireball_scene
 
-export var fireballs_per_hit = 256# If Nolok gets hit by X fireballs, it counts as a hit
+export var fireballs_per_hit = 128# If Nolok gets hit by X fireballs, it counts as a hit
 var fireball_hits = 0 # How many fireball hits the player has racked up on Nolok
 
 onready var bound_left = boundary_tile_left * Global.TILE_SIZE + width * 0.5
